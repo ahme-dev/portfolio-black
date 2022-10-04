@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "virtual:windi.css";
 import "./main.css";
-import Line from "./Line";
+import Line from "./components/Line";
 import bgImg from "./bg.png";
+import Version from "./components/Version";
 
 function App() {
   const [ui, setUi] = useState("None");
@@ -78,6 +79,7 @@ function App() {
           )}
         </main>
       </div>
+      <Version></Version>
     </div>
   );
 }
