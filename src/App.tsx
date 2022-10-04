@@ -2,12 +2,14 @@ import { useState } from "react";
 import "virtual:windi.css";
 import "./main.css";
 import Line from "./Line";
+import bgImg from "./bg.png";
 
 function App() {
   const [ui, setUi] = useState("None");
 
   return (
-    <div className="App flex justify-center items-center w-screen min-h-screen bg-dark-900 text-light-900 p-8">
+    <div className="App flex justify-center items-center w-screen min-h-screen bg-dark-900 text-light-900 p-8 select-none">
+      <img id="bg" src={bgImg} alt="bg" />
       <div
         id="cont"
         className="grid w-[95vw] min-h-[90vh] md:(grid-cols-2 gap-60) border-1 border-light-900 py-4 px-6"
