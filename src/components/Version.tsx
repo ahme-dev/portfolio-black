@@ -16,6 +16,9 @@ function Version() {
       <a className="selected" href="https://d.ahmed.systems">
         D
       </a>
+      <a className="vlink" href="https://e.ahmed.systems">
+        E
+      </a>
     </div>
   );
 }
