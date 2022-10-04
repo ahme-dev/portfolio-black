@@ -19,6 +19,20 @@ function App() {
         <nav>
           <h1 className="text-6xl font-light">Ahmad K. A.</h1>
           <p className="my-4">An aspiring web developer</p>
+          <div className="flex gap-4 mb-4 px-4">
+            <a
+              className="font-sans hover:(border-b)"
+              href="mailto:ahmadkabdullah@protonmail.com"
+            >
+              Email
+            </a>
+            <a
+              className="font-sans hover:(border-b)"
+              href="https://github.com/ahmedkabd/d.ahmed.systems"
+            >
+              Source
+            </a>
+          </div>
           <p className="mb-12">
             This version is inspired by{" "}
             <a className="font-bold" href="https://p5aholic.me/projects/">
