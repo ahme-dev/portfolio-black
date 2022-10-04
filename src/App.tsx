@@ -27,21 +27,21 @@ function App() {
               onClick={() => setUi(() => "Projects")}
               className="font-semibold py-1 my-1 hover:(cursor-pointer text-light-50)"
             >
-              {ui == "Projects" ? "█" : "Projects"}
+              {ui == "Projects" ? "◉" : "Projects"}
             </li>
             {/* Skills */}
             <li
               onClick={() => setUi(() => "Skills")}
               className="font-semibold py-1 my-1 hover:(cursor-pointer text-light-50)"
             >
-              {ui == "Skills" ? "█" : "Skills"}
+              {ui == "Skills" ? "◉" : "Skills"}
             </li>
             {/* Experience */}
             <li
               onClick={() => setUi(() => "Experience")}
               className="font-semibold py-1 my-1 hover:(cursor-pointer text-light-50)"
             >
-              {ui == "Experience" ? "█" : "Experience"}
+              {ui == "Experience" ? "◉" : "Experience"}
             </li>
           </ul>
         </nav>
