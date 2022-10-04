@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "virtual:windi.css";
+import "./main.css";
 import Line from "./Line";
 
 function App() {
@@ -7,7 +8,10 @@ function App() {
 
   return (
     <div className="App flex justify-center items-center w-screen min-h-screen bg-dark-900 text-light-900 p-8">
-      <div className="grid w-[95vw] min-h-[90vh] md:(grid-cols-2 gap-60) border-1 border-light-900 py-4 px-6">
+      <div
+        id="cont"
+        className="grid w-[95vw] min-h-[90vh] md:(grid-cols-2 gap-60) border-1 border-light-900 py-4 px-6"
+      >
         {/* Left */}
         <nav>
           <h1 className="text-6xl font-light">Ahmad K. A.</h1>
