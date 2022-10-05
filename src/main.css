@@ -26,6 +26,10 @@
   animation: comeDown 1s;
 }
 
+#line-title {
+  writing-mode: vertical-rl;
+}
+
 @keyframes moving {
   0% {
     translate: 0px 10px;
