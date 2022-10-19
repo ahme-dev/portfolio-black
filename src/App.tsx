@@ -93,7 +93,6 @@ function App() {
           )}
         </main>
       </div>
-      <Version></Version>
     </div>
   );
 }
