@@ -28,7 +28,7 @@ function App() {
             </a>
             <a
               className="font-sans hover:(border-b)"
-              href="https://github.com/ahmedkabd/portfolio-black"
+              href="https://github.com/ahmedkapro/portfolio-black"
             >
               Source
             </a>
